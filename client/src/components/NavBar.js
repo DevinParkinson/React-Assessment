@@ -20,6 +20,16 @@ class NavBar extends Component {
               <Menu.Item name='DPS React Assessment' />
             </Link>
           </Menu.Menu>
+          <Menu.Menu position='right'>
+            <Link to='/beers'>
+              <Menu.Item name='Beers' />
+            </Link>
+          </Menu.Menu>
+          <Menu.Menu position='right'>
+            <Link to='/breweries'>
+              <Menu.Item name='Breweries' />
+            </Link>
+          </Menu.Menu>
         </Menu>
       </div>
     )
